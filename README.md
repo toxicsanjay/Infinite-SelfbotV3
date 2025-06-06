@@ -35,7 +35,7 @@ Download Termux on your phone and open it and use this commands on termux
 
 ``sudo apt install python3``
 
-``git clone https://github.com/toxicsanjay/Infinite-SelfbotV3.git)``
+``git clone https://github.com/toxicsanjay/Infinite-SelfbotV3.git``
 
 ``cd Storm-Selfbot-V3``
 
